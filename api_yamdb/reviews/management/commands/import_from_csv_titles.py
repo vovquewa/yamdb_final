@@ -1,6 +1,7 @@
 import csv
+
 from django.core.management.base import BaseCommand
-from reviews.models import Title, Categories
+from reviews.models import Categories, Title
 
 FILE_PATH = 'static/data/titles.csv'
 FILE_NAME = FILE_PATH.split('/')[2]
