@@ -6,3 +6,6 @@
 
 ## Workflow status
 ![Workflow status](https://github.com/vovquewa/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+## Адрес проекта
+http://158.160.35.129/
