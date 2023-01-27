@@ -16,9 +16,9 @@ services:
       - ./.env
   web:
     build:
-      context: ../
-      dockerfile: api_yamdb/Dockerfile
-    # image: vovque/infra-web:latest
+      # context: ../
+      # dockerfile: api_yamdb/Dockerfile
+    image: vovque/infra-web:latest
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 
